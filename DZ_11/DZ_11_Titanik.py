@@ -6,6 +6,7 @@
 
 import numpy as np
 import pandas as pd
+from IPython import get_ipython
 from pandas import Series, DataFrame
 import matplotlib as mpl
 import matplotlib.pyplot as plt
@@ -231,7 +232,9 @@ fig.set(title='Распределение возраста, сгруппиров
 fig.add_legend()
 
 
-# ### Из приведенного выше графика видно, что класс 1 имеет нормальное распределение. Однако классы 2 и 3 имеют искаженное распределение в сторону пассажиры 20 и 30 лет.
+# ### Из приведенного выше графика видно, что класс 1 имеет нормальное
+# распределение. Однако классы 2 и 3 имеют искаженное распределение в
+# сторону пассажиры 20 и 30 лет.
 
 # In[97]:
 
